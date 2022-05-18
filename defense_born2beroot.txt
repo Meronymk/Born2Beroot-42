@@ -1,5 +1,5 @@
 ✿———————————————————✦————————————————————————————————✦———————————————————✿
-๑‿︵‿୨					DÉFENSE BORN_2_BE_ROOT						୧‿︵‿๑
+			๑‿︵‿୨			DÉFENSE BORN_2_BE_ROOT			୧‿︵‿๑
 ˖๑‧˚꒷꒦︶︶₊꒷꒦︶︶₊꒷꒦︶︶₊꒷꒦˚₊︶꒷₊꒷꒦˚︶₊꒷꒦˚‧๑˖˖๑‧˚꒷꒦︶︶₊꒷꒦︶︶₊꒷︶꒷₊꒷꒦˚︶₊꒷꒦˚‧๑˖
 
 //ncomplicated Fire Wall//
@@ -271,7 +271,7 @@ l'aide de SSH
 40. Retirer la règle de démarrer au Startup puis redémarer la
 	machine. Le script doit toujours être présent sur la machine
 	mais n'a pas démarrer.
-	◊	sudo service cron stip
+	◊	sudo service cron stop
 
 ◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥
               _
@@ -281,5 +281,5 @@ l'aide de SSH
 ( \`. )    //\`
  \_`-'`---'\\__,
   \`        `-\
-   `												Krochefo	Quebec42
+   `					Krochefo	Quebec42
 ◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥
