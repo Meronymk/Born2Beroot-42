@@ -1,5 +1,5 @@
 ✿———————————————————✦————————————————————————————————✦———————————————————✿
-			๑‿︵‿୨			DÉFENSE BORN_2_BE_ROOT			୧‿︵‿๑
+๑‿︵‿୨			DÉFENSE BORN_2_BE_ROOT			୧‿︵‿๑
 ˖๑‧˚꒷꒦︶︶₊꒷꒦︶︶₊꒷꒦︶︶₊꒷꒦˚₊︶꒷₊꒷꒦˚︶₊꒷꒦˚‧๑˖˖๑‧˚꒷꒦︶︶₊꒷꒦︶︶₊꒷︶꒷₊꒷꒦˚︶₊꒷꒦˚‧๑˖
 
 //ncomplicated Fire Wall//
@@ -272,6 +272,10 @@ l'aide de SSH
 	machine. Le script doit toujours être présent sur la machine
 	mais n'a pas démarrer.
 	◊	sudo service cron stop
+	ou
+	◊	manuellement effacé la commande dans le cron
+		sudo crontab -e -u root
+
 
 ◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥
               _
