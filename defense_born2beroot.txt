@@ -2,7 +2,7 @@
 ๑‿︵‿୨			DÉFENSE BORN_2_BE_ROOT			୧‿︵‿๑
 ˖๑‧˚꒷꒦︶︶₊꒷꒦︶︶₊꒷꒦︶︶₊꒷꒦˚₊︶꒷₊꒷꒦˚︶₊꒷꒦˚‧๑˖˖๑‧˚꒷꒦︶︶₊꒷꒦︶︶₊꒷︶꒷₊꒷꒦˚︶₊꒷꒦˚‧๑˖
 
-//ncomplicated Fire Wall//
+//uncomplicated Fire Wall//
 UFW :		sudo ufw allow <program name>
 			sudo ufw allow <port number>
 			sudo ufw status numbered
@@ -51,10 +51,10 @@ SYSTEM:		sudo systemctl restart "service"
 	◊	On peu créer une partition virtuel en utilisant l'information
 		physique de la machine sur laquel on peu y installer un OS.
 		On peu lui donner une partie de la puissance de la machine
-		ou même créer des partitions supplémentaire.
+		ou même créer des partitions supplémentaires.
 
 2. Pourquoi avoir choisi CentOs ou Debian
-	◊	CentOs est un produit payant de Red hat qui offre une
+	◊	CentOs est un produit payant de Red Hat qui offre une
 		stabilité dans ses mises à jours et son service de soutient.
 		C'est souvent utiliser par les grandes entreprises.
 		Debian est un open source (gratuit), qui lui, supporte plusieurs
@@ -68,9 +68,9 @@ SYSTEM:		sudo systemctl restart "service"
 		supérieure puisqu'il utilise ses programmes fiables et testés
 		dans leur environnement. 
 
-		Debian lui est mis à jour régulierement, donc demande plus
+		Debian lui est mis à jour régulièrement, donc demande plus
 		d'attention mais est parfait pour le développement puisque
-		ces mise à jour sont plus fréquente et ammélioré par une
+		ses mise à jours sont plus fréquentes et amméliorées par une
 		communauté active et proche des nouvelles technologies.
 
 4. Le but de la Machine Virtuelle
