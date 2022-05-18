@@ -2,7 +2,7 @@
 ๑‿︵‿୨			DÉFENSE BORN_2_BE_ROOT			୧‿︵‿๑
 ˖๑‧˚꒷꒦︶︶₊꒷꒦︶︶₊꒷꒦︶︶₊꒷꒦˚₊︶꒷₊꒷꒦˚︶₊꒷꒦˚‧๑˖˖๑‧˚꒷꒦︶︶₊꒷꒦︶︶₊꒷︶꒷₊꒷꒦˚︶₊꒷꒦˚‧๑˖
 
-//uncomplicated Fire Wall//
+//Uncomplicated Fire Wall//
 UFW :		sudo ufw allow <program name>
 			sudo ufw allow <port number>
 			sudo ufw status numbered
@@ -107,7 +107,7 @@ SYSTEM:		sudo systemctl restart "service"
 11. Afficher le status SSH
 	◊	systemctl status ssh
 
-12. Afficher la disro linux
+12. Afficher la distribution de linux
 	◊	uname -a
 
 13. Afficher si un utilisateur avec notre login est présent sur
