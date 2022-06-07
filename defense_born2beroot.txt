@@ -57,16 +57,15 @@ SYSTEM:		sudo systemctl restart "service"
 	◊	CentOs est un produit payant de Red Hat qui offre une
 		stabilité dans ses mises à jours et son service de soutient.
 		C'est souvent utiliser par les grandes entreprises.
-		Debian est un open source (gratuit), qui lui, supporte plusieurs
-		architectures et qui a une communauté d'utilisateurs/développeurs
-		active.
+		(la version gratuite de CentOs sera discontinué au plus tard 2024)
+		Debian supporte plusieurs architectures et qui a une communauté
+		d'utilisateurs/développeurs active.
 		donc on choisi Debian pour son accès gratuit et ses avantages.
 
 3. La principal différence entre CentOs et Debian
 	◊	CentOs a un support commercial de 10 ans, des mise à jours
-		sur des cycles basés sur le même cycle que Linux, une vitesse
-		supérieure puisqu'il utilise ses programmes fiables et testés
-		dans leur environnement. 
+		une vitesse supérieure puisqu'il utilise ses programmes
+		fiables et testés dans leur environnement. 
 
 		Debian lui est mis à jour régulièrement, donc demande plus
 		d'attention mais est parfait pour le développement puisque
@@ -87,8 +86,8 @@ SYSTEM:		sudo systemctl restart "service"
 
 6. Qu'est ce que APPArmor
 	◊	C'est un logiciel de sécurité qui associe un profil de
-		sécurité (comme un groupe) à chaque programme qui peu
-		restreindre les accès au OS ou d'autres programmes.
+		sécurité à chaque programme qui peu restreindre les accès
+		au OS ou d'autres programmes.
 		Il utilise les chemin d'accès(directory path) pour
 		authoriser ou refuser l'accès.
 
@@ -131,58 +130,62 @@ SYSTEM:		sudo systemctl restart "service"
 	◊	sudo usermod -aG evaluating <user>
 	◊	getent group evaluating
 
-18. Afficher le hostname qui est ""user"42
+18 Montre deux fichier modifié.
+	◊	/etc/pam.d/common-password (nano)
+	◊	sudo visudo
+
+19. Afficher le hostname qui est ""user"42
 	◊	hostname
 
-19. Changer le hostname, redémarrer, vérifier a nouveau, si tous
-	fonctionne on change a nouveau pour "user"42 et on redémarre
-	◊	sudo hostnamectl set_hostname <new name>
+20. Changer le hostname, redémarrer, vérifier a nouveau, si tous
+	fonctionne on change a nouveau pour "user42" et on redémarre
+	◊	sudo hostnamectl set-hostname <new name>
 	◊	/etc/hosts   ---> edit 127.0.0.1 <old hostname> (nano)
 
-20. Afficher les partitions
+21. Afficher les partitions
 	◊	lsblk
 
-21. Qu'est ce que LVM et quel est sont utilité.
+22. Qu'est ce que LVM et quel est sont utilité.
 	◊	LVM est un logiciel de gestion de l'utilisation des 
 		espaces de stockage d'un ordinateur. Il permet de gérer,
 		sécuriser et optimiser de manière souple les espaces de
 		stockage en ligne dans les systèmes d'exploitation de type UNIX.
 		comme des partitions /swap,/root,/home,/srv,/tmp,/var etc.
 
-22. Véfifier si SUDO est installé
+23. Véfifier si SUDO est installé
 	◊	sudo
 
-23. Ajouter le nouvelle utilisateur dans le groupe SUDO
+24. Ajouter le nouvelle utilisateur dans le groupe SUDO
 	◊	sudo usermod -aG sudo <user>
 
-24. Qu'est ce que SUDO et son utilité.
+25. Qu'est ce que SUDO et son utilité.
 	◊	Un programme qui donne les droits d'un utilisateur
 		à un autre utilisateur.
 
-25. Faire un exemple d'utilisation de sudo 
+26. Faire un exemple d'utilisation de sudo 
 	◊	sudo install <nom du package>
 
-26. Véfifier que /var/log/sudo existe avec un fichier a l'intérieur
+27. Véfifier que /var/log/sudo existe avec un fichier a l'intérieur
 	◊	cd /var/log/sudo
 	◊	ls -la
 
-27. Vérifier que les commandes sudo sont présente
+28. Vérifier que les commandes sudo sont présente
 	◊	sudo
 
-28. Qu'est ce que UFW et sont utilité
+29. Qu'est ce que UFW et sont utilité
 	◊	Un outil de configuration de port. il permet d'ouvrir et
 		de fermer des ports.
 
-29. Afficher les régles de UFW
+30. Afficher les régles de UFW
 	◊	sudo ufw status numbered
 
-30. Ajouter une règle pour ouvrir le port 8080
+31. Ajouter une règle pour ouvrir le port 8080
 	◊	sudo ufw allow 8080
 
-31. Vérifier si la règle est active
+32. Vérifier si la règle est active
 	◊	sudo ufw status numbered
 
-32. Supprimer la règle 8080
+33. Supprimer la règle 8080
 	◊	sudo ufw delete <rule number>
 
 34. Qu'est ce que SSH et son utilité
@@ -201,7 +204,7 @@ l'aide de SSH
 	◊	ssh root@127.0.0.1 -p 4242
 
 38. Qu'est ce que CRON
-	◊	Cron est une horloge système qui peu prendre des lignes
+	◊	Cron est un service horloge système qui peu prendre des lignes
 		de commande selon la période demandé en respectant
 		la syntaxe de crontab.
 
